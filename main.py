@@ -924,17 +924,6 @@ st.markdown(
     - 로그 스케일 산점도를 통해 관객 수가 매우 작은 영화부터 매우 큰 영화까지 함께 비교할 수 있습니다.
     - 영화코드 순서에 따라 10편마다 3편을 시험용으로 분리하므로, 임의로 시험 영화를 선택하는 방식과 다릅니다.
     """
-)
-```
 
-### `requirements.txt`
-
-버전 숫자 없이 이렇게만 넣으면 돼.
-
-streamlit
-pandas
-numpy
-scikit-learn
-plotly
 
 **참고:** 이 코드는 `total_audi(총 관객)` 자체는 입력 변수에서 제외하고, `first_week_audi`, `first_scrn`, `first_show`, `genre`, `nation` 같은 변수를 체크해서 선택하도록 해놨어. 특히 **시험용 영화는 학습에 전혀 사용하지 않은 영화**로 평가하도록 구성했어.
